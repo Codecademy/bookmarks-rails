@@ -16,7 +16,7 @@
 
 
 .container {
-  width: 500px
+  width: 600px
 }
 
 p {
@@ -26,30 +26,62 @@ p {
 .header h1 {
   font-family: 'Domine', serif;
   margin: 50px 0 30px 0;
+  text-align: center;
 }
 
 /* Book */
 .book {
-  margin: 10px 0;
-  border-top: 1px solid #ccc;
-  padding: 6px 0;
+  margin: 20px 0;
+  border-top: 1px solid #000;
+  padding: 16px 0 12px;
 }
 
 .rank-this-week {
-  font-size: 23px;
+  font-family: 'Domine', serif;
+  font-size: 36px;
 }
 
 .title {
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 22px;
   font-weight: bold;
+  margin: 16px 0 0;
 }
 
 .book .author,
 .publisher,
 .description,
 a {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Merriweather', serif;
+}
+
+.author {
+  font-style: italic;
+}
+
+.publisher {
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom:10px;
+}
+
+a {
+  color: #0068ff;
+}
+
+a:hover {
+  color: #76b4ff;
+  text-decoration: none;
+}
+
+.weeks-on-list {
+  color: #c1c1c1;
+  font-weight: bold;
+  line-height:14px;
+  padding-top: 24px;
 }
 
 /* Review */
@@ -59,12 +91,20 @@ a {
   border-top: 1px solid #ccc;
 }
 
+.review:first-child {
+  border-top: 5px solid #000;
+}
+
 .review .author {
-  font-weight: bold;  
+  font-weight: bold; 
+  font-style: normal;
+  margin: 12px 0 18px; 
 }
 
 .comment {
-  background-color: #f8f8f8;
-  border: 1px solid #ccc;
-  padding: 10px;
+  background-color: #f1f1f1;
+  font-family: 'Merriweather', serif;
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
 }
